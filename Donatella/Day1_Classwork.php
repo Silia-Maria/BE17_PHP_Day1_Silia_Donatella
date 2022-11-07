@@ -3,7 +3,21 @@
 $name = "Donatella";
 $age = "37";
 $job_title = "space microbiologist";
+
+//array 
+$name_array = array(
+    "1st_player" => "Mark",
+    "2nd_player" => "John",
+    "3rd_player" => "Georg",
+    "4th_player" => "Lisa"
+);
+
+//associative nested array
+$cartoon_anime_gCharacters_array = array(
+    "cartoon" => array()
+)
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -27,13 +41,6 @@ $job_title = "space microbiologist";
     <p>hi</p>
     <?= $name ?> <br>
     <?php
-    //associative array 
-    $name_array = array(
-        "1st_player" => "Mark",
-        "2nd_player" => "John",
-        "3rd_player" => "Georg",
-        "4th_player" => "Lisa"
-    );
     echo "The third player in the team is " . $name_array["3rd_player"] . ".";
     ?>
 
