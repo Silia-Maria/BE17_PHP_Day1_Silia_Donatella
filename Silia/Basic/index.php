@@ -1,8 +1,10 @@
 <?php
+#Variables
 $name = "Silia";
 $age = 26;
 $job = "Manager";
 
+#Array
 $players = ["Mark", "Greg", "Lisa"];
 ?>
 

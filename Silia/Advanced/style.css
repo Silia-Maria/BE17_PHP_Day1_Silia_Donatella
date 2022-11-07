@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.heading {
+    text-align: center;
+}
+
+.image {
+    width: 30vw;
+    height: auto;
+    border-radius: 20%;
+}
